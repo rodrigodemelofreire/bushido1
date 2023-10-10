@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+    background-color: #130713;
+} 
+
+.bushido-cima{
+    padding-top: 250px;
+    background-image: url(../src/inicio.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; 
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.text-inicio{
+    text-align: center;
+    font-size: 150px;
+
+}
+
+h1{
+    position: relative;
+    display: inline-block;
+    color: red; 
+    bottom: 0;
+    left: 0;
+    width: 45%; 
+    border-bottom: 5px solid red; 
+
+}
+
+p{
+    font-family: 'Petrona', serif;
+    font-size: 35px;
+}
+
+.caminhoS{ 
+    padding-top: 1050px;
+    position: absolute;
+    width: 346px;
+height: 332px;
+flex-shrink: 0;
+}
