@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+#miyamoto{
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 10px 0;
+}
+
+#bushidoex {
+    color: rgb(103, 202, 57);
+    font-weight: bold; 
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#aneisT{
+    color: #ff0000;
+
+}
+
+.content {
+    display: flex; 
+    align-items: center; 
+}
+
+.texto {
+    flex: 1; 
+    padding: 0 20px; 
+}
+
+.imagem {
+    flex: 1;
+    text-align: center; 
+}
+
+#aneis{
+    width: 20vw;
+    height: auto;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.knowMore{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; 
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+    #aneis {
+        width: 80%; 
+    }
+    section {
+        margin: 10px; 
+        padding: 10px;
+    }
+}
